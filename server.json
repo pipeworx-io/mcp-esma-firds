@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/esma-firds",
+  "title": "Esma Firds",
+  "description": "ESMA FIRDS + MiFID authorisation register — the EU's Financial Instruments",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/esma-firds",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-esma-firds",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/esma-firds/mcp"
+    }
+  ]
+}
