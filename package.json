@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-esma-firds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESMA FIRDS + MiFID authorisation register — the EU's Financial Instruments",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-e2d7929e1c9e59ab07bfe6b5f0eace47d7e63852397f38c10619d58a73b2e00d",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }
