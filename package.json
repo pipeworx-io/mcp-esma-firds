@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-esma-firds",
-  "version": "0.1.1",
-  "description": "ESMA FIRDS + MiFID authorisation register — the EU's Financial Instruments",
+  "version": "0.1.2",
+  "description": "ESMA FIRDS + MiFID authorisation register — the EU's Financial Instruments Reference Data System (registers.esma.europa.eu) and the Union Register of investment firms authorised under MiFID II.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-e2d7929e1c9e59ab07bfe6b5f0eace47d7e63852397f38c10619d58a73b2e00d",
-    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
+    "sourceHash": "v1-9a7dfe8e3b357b773884ddf1f488e12bfa5b50f8ae4ddbf5887d24d79f1e1cdd",
+    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
   }
 }
