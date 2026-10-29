@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-esma-firds",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "ESMA FIRDS + MiFID authorisation register — the EU's Financial Instruments Reference Data System (registers.esma.europa.eu) and the Union Register of investment firms authorised under MiFID II.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-esma-firds": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "esma-firds"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-esma-firds.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/esma-firds",
   "pipeworx": {
-    "sourceHash": "v1-1e6575dc0bfbd4aea8e1d417f32bab4906f41eb632b075e2e234c348f2d024fc",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "esma-firds",
+    "gatewaySlug": "esma-firds",
+    "sourceHash": "v1-43a4f9bd3e264b3898ce1c15a147738d5858371889ce02b6edc4f84d89071e83",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }

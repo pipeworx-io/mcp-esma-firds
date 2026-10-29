@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/esma-firds",
   "title": "Esma Firds",
   "description": "ESMA FIRDS + MiFID authorisation register — the EU's Financial Instruments Reference Data System…",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/esma-firds",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-esma-firds",
